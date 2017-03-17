@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hidden Chat</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="script.js"></script>
+	<style>
+		body{
+			background-color: #151515;
+		}
+		main{
+			width:960px;
+			margin: 0 auto;
+			color:#1c1c1c;
+			font-size:50px;
+		}
+		main>figure>*{
+			display: inline-block;
+		}
+		main>figure>span:nth-of-type(1){
+			margin-top: 50px;
+			font-size:100px;
+		}
+		main>nav{
+			font-size: 30px;
+			border:1px solid #1c1c1c;
+			padding:0 30px 35px 30px;
+		}
+		main>nav>span{
+			display: block;
+			font-size:0.8em;
+			padding: 10px 25px;
+			font-style: oblique;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<figure>
+			<span>Hidden Chat</span>
+			<figure>F12</figure>
+		</figure>
+		<nav>
+			<h1> Manual :</h1>
+			<p>
+				Open console in your browser(probably F12) and write :
+			</p>
+			<span><b>join(name)</b> - to join chat</span>
+			<span><b>say(message)</b> - to write to chat</span>
+			<span><b>close()</b> - to leave chat</span>
+		</nav>
+	</main>
+</body>
+</html>
